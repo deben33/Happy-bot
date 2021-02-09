@@ -1,8 +1,0 @@
-{
-    "token": "votre token",
-    "prefix": "!",
-    "greeting": {
-        "channel": "ID du salon de bienvenue",
-        "role": "ID de l'autorole"
-    }
-}
