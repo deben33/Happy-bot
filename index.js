@@ -30,7 +30,6 @@ client.on('message', message => {
 
 client.on('guildMemberAdd', member => {
     member.guild.channels.cache.get(config.greeting.channel).send(`:clap: Bienvenue ${member} ! Nous te souhaitons de passez un agréable moment sur le serveur :headphones: ***Discosique*** :thumbsup: https://f.hellowork.com/blogdumoderateur/2013/02/gif-anime.gif`)
-    member.roles.add(config.greeting.role)
 })
 
 client.on('guildMemberRemove', member => {
