@@ -29,10 +29,10 @@ client.on('message', message => {
 })
 
 client.on('guildMemberAdd', member => {
-    member.guild.channels.cache.get(config.greeting.channel).send(`${member} a rejoint le serveur. Nous sommes désormais ${member.guild.memberCount} ! 🎉`)
+    member.guild.channels.cache.get(config.greeting.channel).send(`:clap: Bienvenue ${member} ! Nous te souhaitons de passez un agréable moment sur le serveur :headphones: ***Discosique*** :thumbsup: https://f.hellowork.com/blogdumoderateur/2013/02/gif-anime.gif`)
     member.roles.add(config.greeting.role)
 })
 
 client.on('guildMemberRemove', member => {
-    member.guild.channels.cache.get(config.greeting.channel).send(`${member.user.tag} a quitté le serveur... 😢`)
+    member.guild.channels.cache.get(config.greeting.channel).send(`${member.user.tag} a quitté le serveur...! 😢 https://tenor.com/view/mandalorian-baby-yoda-baby-yoda-wave-magic-hand-thing-baby-yoda-magic-hand-thing-gif-15921838`)
 })
